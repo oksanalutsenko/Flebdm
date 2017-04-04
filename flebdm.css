@@ -9,6 +9,10 @@ a {
 	display: inline-block;
 }
 
+#circle {
+	margin-top: 6px;
+}
+
 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -470,7 +474,7 @@ footer a:hover {
 @media (min-width: 0px) and (max-width: 320px) { 
 
 	.hiden_menu {
-		margin: 23px;
+		margin: 43px;
 	}
 
 	#mnu  li {
@@ -479,8 +483,30 @@ footer a:hover {
 
 	.symbol {
 	    display: block;
-	    left: -13px;
-	    margin-top: 54px;
+	    left: -56px;
+	    margin-top: 37px;
+	}
+
+	.top-mnu {
+	    margin-left: 0;
+	    width: 100%;
+	}
+
+	.header-label {
+	    height: 55px;
+	    margin-top: 15px;
+	    width: 100px;
+	}
+
+	.glyphicon {
+	    display: inline-block;
+	    font-family: "Glyphicons Halflings";
+	    font-style: normal;
+	    font-weight: normal;
+	    line-height: 1;
+	    right: 0 !important;
+	    top: -24px !important;
+	    position: absolute !important;
 	}
 
 	.dropdown-menu {
@@ -488,6 +514,19 @@ footer a:hover {
 		font-family: "Times New Roman";
 		font-size: 23px !important;
 		font-weight: bold;
+		margin: -17px;
+	       left: -58px;
+	       position: absolute;
+	       top: -48px;
+	       width: 100%;
+	}
+
+	.line {
+	    color: #fff;
+	    font-size: 24px;
+	    margin-right: -23px;
+	    margin-top: 6px;
+	    position: absolute;
 	}
 
 	.btn-group a {
@@ -498,34 +537,12 @@ footer a:hover {
 		padding-bottom: -25px;
 	}
 
-	.header-icon img:hover {
-		text-decoration: none;
-		-webkit-box-shadow: none;
-		background-color: #a30be3;
-		padding: 5px;
-	}
-
-	.header-icon a:hover {
-		border-bottom: none !important;
-	}
-
 	#icon-menu  ul li {
 		margin: 25px 10px 0 5px;
 	}
 
 	.header-medium h2 {
 		margin-top: 50px;
-	}
-
-	.header-icon ul li {
-	    display: inline-block;
-	    list-style-type: none;
-	    margin-top: -43px;
-	    padding-right: 17px;
-	}
-
-	.header-icon img {
-		margin-top: -35px;
 	}
 
 	#r234 {
@@ -703,7 +720,7 @@ footer a:hover {
 
 
 @media (min-width: 321px) and (max-width: 480px) { 
-
+	
 	.hiden_menu {
 		margin: 43px;
 	}
@@ -712,12 +729,27 @@ footer a:hover {
 		padding: 5px;
 	}
 
-	.header-label {
-	    height: 50px;
-	    margin-top: 10px;
-	    width: 115px;
+	.symbol {
+	    display: block;
+	    left: -56px;
+	    margin-top: 37px;
 	}
 
+	.top-mnu {
+	    margin-left: 0;
+	    width: 100%;
+	}
+
+	.glyphicon {
+	    display: inline-block;
+	    font-family: "Glyphicons Halflings";
+	    font-style: normal;
+	    font-weight: normal;
+	    line-height: 1;
+	    right: 0 !important;
+	    top: -24px !important;
+	    position: absolute !important;
+	}
 
 	.dropdown-menu {
 		background-color: #e5b5f9 !important;
@@ -725,7 +757,21 @@ footer a:hover {
 		font-size: 23px !important;
 		font-weight: bold;
 		margin: -17px;
+	       left: -58px;
+	       position: absolute;
+	       top: -48px;
+	       width: 100%;
 	}
+
+	.line {
+	    color: #fff;
+	    display: block;
+	    font-size: 30px;
+	    font-weight: normal;
+	    position: absolute;
+	    right: 0;
+	    top: -23px;
+  	}
 
 	.btn-group a {
 	    color: #a30be3 !important;
@@ -954,13 +1000,43 @@ footer a:hover {
 	    margin-top: 37px;
 	}
 
+	.top-mnu {
+	    margin-left: 0;
+	    width: 100%;
+	}
+
+	.glyphicon {
+	    display: inline-block;
+	    font-family: "Glyphicons Halflings";
+	    font-style: normal;
+	    font-weight: normal;
+	    line-height: 1;
+	    right: 0 !important;
+	    top: -24px !important;
+	    position: absolute !important;
+	}
+
 	.dropdown-menu {
 		background-color: #e5b5f9 !important;
 		font-family: "Times New Roman";
 		font-size: 23px !important;
 		font-weight: bold;
 		margin: -17px;
+	       left: -58px;
+	       position: absolute;
+	       top: -48px;
+	       width: 100%;
 	}
+
+	.line {
+	    color: #fff;
+	    display: block;
+	    font-size: 30px;
+	    font-weight: normal;
+	    position: absolute;
+	    right: 0;
+	    top: -23px;
+  	}
 
 	.btn-group a {
 		text-decoration: none;
