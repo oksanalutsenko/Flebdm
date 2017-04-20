@@ -19,13 +19,12 @@ a {
 }
 
 .header {
-	background: url(img/header_bg.jpg) no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	min-height: 529px;
 	position: relative;
 	margin: 0 auto;
+}
+
+.carousel-inner {
+	height: 417px
 }
 
 .header-top {
@@ -36,6 +35,7 @@ a {
 	margin: 0 auto;
 	width: 100%;
 	border-top: #a997c5 4px solid;
+	z-index: 2
 }
 
 .header-label {
@@ -84,11 +84,15 @@ a {
 	border-bottom: #fff solid 2px;
 }
 
+#medium {
+    margin-top: -25px;
+}
+
 .header-medium h2 {
 	color: #775ba3;
 	font-size: 40px;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 100px !important;
 }
 
 .header-medium p {
@@ -400,6 +404,7 @@ footer p {
 
 footer span {
 	color: #ffffff;
+	margin-left: 0;
 }
 
 #textarea input {
@@ -410,6 +415,7 @@ footer span {
 
 #mess {
 	padding-top: -15px;
+	margin-left: 0;
 }
 
 footer a {
@@ -1247,9 +1253,13 @@ footer a:hover {
 		width: 180px;
 	}
 
+	#textarea {
+		width: 95%;
+	}
+
 
 	#textarea span {
-		margin-left: 175px;
+		margin-left: 0;
 		font-size: 17px;
 	}
 
@@ -1538,6 +1548,14 @@ footer a:hover {
 	#textarea input[name="Massage"] {
 		margin-left: 15px;
 		width: 180px;
+	}
+
+	#email {
+   		 margin: 0 0 10px 40px;
+	}
+
+	#nom {
+    		margin: 0 0 10px 43px;
 	}
 
 
