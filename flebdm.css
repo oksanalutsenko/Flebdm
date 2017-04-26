@@ -19,23 +19,45 @@ a {
 }
 
 .header {
+	overflow: hidden;
+	margin: 0 auto;
+	max-height: 353px;
+}
+
+.carousel {
+	height: 450px;
+	width: 100%;
 	position: relative;
 	margin: 0 auto;
 }
 
+.carousel-indicators {
+    bottom: 200px;
+}
+
 .carousel-inner {
-	height: 417px
+    height: 450px;
+    position: relative;
+    width: 100%;
+    overflow-y: hidden;
+}
+.glyphicon-chevron-left {
+    margin-top: -55px !important;
+}
+
+.glyphicon-chevron-right {
+    margin-top: -55px !important;
 }
 
 .header-top {
 	min-height: 75px;
-	position: absolute;
+	position: absolute !important;
 	background: url(img/header_top_bg.png) repeat-x;
 	background-position: top center;
 	margin: 0 auto;
 	width: 100%;
 	border-top: #a997c5 4px solid;
-	z-index: 2
+	z-index: 1;
 }
 
 .header-label {
@@ -84,15 +106,11 @@ a {
 	border-bottom: #fff solid 2px;
 }
 
-#medium {
-    margin-top: -25px;
-}
-
 .header-medium h2 {
 	color: #775ba3;
 	font-size: 40px;
 	text-align: center;
-	margin-top: 100px !important;
+	
 }
 
 .header-medium p {
@@ -192,7 +210,7 @@ a {
 }
 
 #third {
-	margin-top: 0;
+	margin-top: 1px;
 }
 
 
@@ -498,10 +516,38 @@ footer a:hover {
 	    width: 100%;
 	}
 
+	.carousel-inner {
+		min-height: 450px;
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.carousel-indicators {
+	    bottom: 115px !important;
+	}
+
+	.glyphicon-chevron-left {
+	      margin-top: 255px !important;
+	 }
+
+	.glyphicon-chevron-right {
+	      margin-top: 255px !important;
+	      margin-right: 15px !important;
+	 }
+
 	.header-label {
 	    height: 55px;
 	    margin-top: 15px;
 	    width: 100px;
+	}
+
+	.glyphicon-chevron-left {
+	    top: 170px !important;
+	}
+
+	.glyphicon-chevron-right {
+	    top: 170px !important;
 	}
 
 	.glyphicon {
@@ -756,6 +802,20 @@ footer a:hover {
 	    top: -24px !important;
 	    position: absolute !important;
 	}
+
+	.carousel-indicators {
+	    bottom: 105px !important;
+	}
+
+	.glyphicon-chevron-left {
+	      margin-top: 255px !important;
+	 }
+
+	.glyphicon-chevron-right {
+	      margin-top: 255px !important;
+	      left: auto;
+	      right: 50px !important;
+	 }
 
 	.dropdown-menu {
 		background-color: #e5b5f9 !important;
@@ -1022,6 +1082,20 @@ footer a:hover {
 	    position: absolute !important;
 	}
 
+	.glyphicon-chevron-left {
+	    margin-top: 270px !important;
+	}
+
+	.glyphicon-chevron-right {
+	    margin-top: 270px !important;
+	    left: auto;
+	    right: 60px !important;
+	}
+
+	.carousel-indicators {
+	    bottom: 105px !important;
+	  }
+
 	.dropdown-menu {
 		background-color: #e5b5f9 !important;
 		font-family: "Times New Roman";
@@ -1091,6 +1165,10 @@ footer a:hover {
 
 	.header-icon img {
 		margin-top: -35px;
+	}
+
+	.main_menu {
+	    margin-left: 175px;
 	}
 
 	#r234 {
@@ -1309,7 +1387,14 @@ footer a:hover {
 	}
 
 	.header-top {
-		position: relative;
+		min-height: 75px;
+		position: absolute !important;
+		background: url(img/header_top_bg.png) repeat-x;
+		background-position: top center;
+		margin: 0 auto;
+		width: 100%;
+		border-top: #a997c5 4px solid;
+		z-index: 2
 	}
 
 	.header-icon {
@@ -1332,7 +1417,6 @@ footer a:hover {
 		border-bottom: none !important;
 	}
 
-	
 	.header-medium h2 {
 		margin-top: 50px;
 	}
@@ -1583,6 +1667,10 @@ footer a:hover {
 
 
 @media (min-width: 993px) and (max-width: 1200px) { 
+
+	.header-top {
+	    position: absolute;
+	}
 
 	.header-label {
 	    height: 40px;
@@ -1969,7 +2057,7 @@ footer a:hover {
 	}
 
 	#third {
-		margin-top: 5px;
+		margin-top: 0;
 	}
 
 	.new_text {
@@ -2112,6 +2200,14 @@ footer a:hover {
 	#textarea span {
 	    font-size: 17px;
 	    margin-left: 0;
+	}
+
+	#btn a {
+	    background-color: #419568;
+	    border: medium none;
+	    color: #fff;
+	    margin: 1px;
+	    padding: 12px;
 	}
 
 	
