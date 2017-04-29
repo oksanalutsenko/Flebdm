@@ -21,32 +21,30 @@ a {
 .header {
 	overflow: hidden;
 	margin: 0 auto;
-	max-height: 353px;
+	max-height: 540px;
 }
 
 .carousel {
-	height: 450px;
 	width: 100%;
 	position: relative;
 	margin: 0 auto;
 }
 
 .carousel-indicators {
-    bottom: 200px;
+   margin-bottom: -50px;
 }
 
 .carousel-inner {
-    height: 450px;
-    position: relative;
+    max-height: 450px;
     width: 100%;
-    overflow-y: hidden;
 }
+
 .glyphicon-chevron-left {
-    margin-top: -55px !important;
+    margin-top: 25px !important;
 }
 
 .glyphicon-chevron-right {
-    margin-top: -55px !important;
+    margin-top: 25px !important;
 }
 
 .header-top {
@@ -58,6 +56,22 @@ a {
 	width: 100%;
 	border-top: #a997c5 4px solid;
 	z-index: 1;
+}
+
+.thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.container-fluid {
+	padding: 0 !important;
+	min-height: 0 auto;
+}
+
+#medium {
+	margin: 0 auto;
+	padding: 0;
 }
 
 .header-label {
@@ -92,25 +106,22 @@ a {
 	list-style-type: none;
 	padding-right: 40px;
 	margin-top: 22px;
+	float: left;
 }
 
 .header-icon ul li a {
 	padding-bottom: 27px;
 }
 
-.header-icon {
-	text-align: right;
-}
-
 .header-icon ul li a:hover {
-	border-bottom: #fff solid 2px;
+	border-bottom: #fff solid 2px !important;
+	background: none !important;
 }
 
 .header-medium h2 {
 	color: #775ba3;
 	font-size: 40px;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .header-medium p {
@@ -190,7 +201,6 @@ a {
 	height: 58px;
 }
 
-
 .social1 a {
 	background-color: #3b5998;
 	width: 183px;
@@ -214,7 +224,7 @@ a {
 
 .social1 img, .social2 img, .social4 img, .social5 img, .social6 img {
     border-bottom: medium none;
-    padding-left: 50px !important;
+    margin-left: 20px;
     padding-top: 7px;
 }
 
@@ -319,10 +329,10 @@ a {
 	color: #7e63a8;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 30px;
+	padding: 35px;
 	margin-left: 00px;
 	background: url(img/icon11.png) no-repeat;
-	background-position: 880px 66px;
+	background-position: 849px 75px;
 	text-transform: uppercase;
 }
 
@@ -396,17 +406,24 @@ a {
     vertical-align: top;
 }
 
-#btn a {
+#btn button {
     background-color: #419568;
     border: medium none;
-    margin-right: 1px;
-    padding: 12px 14px;
+    margin: 2px 2px 4px 3px;
+    padding: 13px;
     color: #fff;
-    margin: 2px;
+    border-radius: 5px;
 }
 
+.btn-group {
+    width: 100%;
+}
 
-#btn  a:hover {
+#b_group button {
+	margin-right: 7px;
+}
+
+#btn  button:hover {
 	background-color: #68786f;
 	border: 1px solid #4c4e4d;
 }	
@@ -575,10 +592,10 @@ footer a:hover {
 		font-size: 23px !important;
 		font-weight: bold;
 		margin: -17px;
-	       left: -58px;
-	       position: absolute;
-	       top: -48px;
-	       width: 100%;
+	     left: -58px;
+	     position: absolute;
+	     top: -48px;
+	     width: 100%;
 	}
 
 	.line {
@@ -638,7 +655,7 @@ footer a:hover {
 	.social1 img, .social2 img, .social4 img, .social5 img, .social6 img {
 	    border-bottom: medium none;
 	    margin-bottom: 30px;
-	    padding-left: 50px;
+	    margin-left: 18px;
 	    padding-top: 7px;
 	}
 	
@@ -1110,7 +1127,7 @@ footer a:hover {
 
 	.carousel-indicators {
 	    bottom: 105px !important;
-	  }
+	}
 
 	.dropdown-menu {
 		background-color: #e5b5f9 !important;
@@ -1151,17 +1168,6 @@ footer a:hover {
 
 	.header-icon a {
 		padding-right: 15px;
-	}
-
-	.header-icon img:hover {
-		text-decoration: none;
-		-webkit-box-shadow: none;
-		background-color: #a30be3;
-		padding: 5px;
-	}
-
-	.header-icon a:hover {
-		border-bottom: none !important;
 	}
 
 	#icon-menu  ul li {
@@ -1342,6 +1348,10 @@ footer a:hover {
 		margin-top: -9px;
 	}
 
+	#btn h6 {
+		text-align: left;
+	}
+
 	#textarea input[name="Nom"], input[ name="Email"] {
 		width: 180px;
 	}
@@ -1355,6 +1365,9 @@ footer a:hover {
 		width: 95%;
 	}
 
+	#textarea h6 {
+		text-align: left;
+	}
 
 	#textarea span {
 		margin-left: 0;
@@ -1424,13 +1437,6 @@ footer a:hover {
 	    right: -439px;
 	    top: -52px;
 	    width: 230px !important;
-	}
-
-	.header-icon img:hover {
-		text-decoration: none;
-		-webkit-box-shadow: none;
-		background-color: #a30be3;
-		padding: 5px;
 	}
 
 	.header-icon a:hover {
@@ -1516,7 +1522,7 @@ footer a:hover {
 
 	.social1 img, .social2 img, .social4 img, .social5 img, .social6 img {
 	    border-bottom: medium none;
-	    padding-left: 33px;
+	    margin-left: 140px;
 	    padding-top: 7px;
 	    margin-bottom: 30px;
 	}
@@ -1663,6 +1669,11 @@ footer a:hover {
 		width: 180px;
 	}
 
+	#textarea span {
+	    font-size: 17px;
+	    margin-left: 0 !important;
+	}
+
 	#email {
    		 margin: 0 0 10px 40px;
 	}
@@ -1714,17 +1725,6 @@ footer a:hover {
 	    padding-bottom: 10px;
 	    padding-right: 21px;
 	    text-transform: uppercase;
-	}
-
-	.header-icon img:hover {
-		text-decoration: none;
-		-webkit-box-shadow: none;
-		background-color: #a30be3;
-		padding: 5px;
-	}
-
-	.header-icon a:hover {
-		border-bottom: none !important;
 	}
 	
 	.header-medium h2 {
@@ -1808,7 +1808,7 @@ footer a:hover {
 
 	.social1 img, .social2 img, .social4 img, .social5 img, .social6 img {
 	    border-bottom: medium none;
-	    padding-left: 33px;
+	    margin-left: 55px;
 	    padding-top: 7px;
 	    margin-bottom: 30px;
 	}
@@ -1963,13 +1963,11 @@ footer a:hover {
 		width: 173px;
 	}
 
-
 	#textarea span {
 	    font-size: 17px;
 	    margin-left: 0;
 	}
 
-	
 	.footer-nav a {
 	 	text-align: center;
 	 	font-size: 9px;
@@ -2005,22 +2003,18 @@ footer a:hover {
 	    text-transform: uppercase;
 	}
 
-	.header-icon img:hover {
-		text-decoration: none;
-		-webkit-box-shadow: none;
-		background-color: #a30be3;
-		padding: 5px;
+	.header-icon li {
+	    float: left;
+	    list-style-type: none;
+	    margin-top: 22px;
+	    padding-right: 40px;
 	}
 
 	.header-icon {
 	    display: inline-block;
 	    position: absolute;
-	    right: 40px;
+	    right: 0;
 	    top: -2px;
-	}
-
-	.header-icon a:hover {
-		border-bottom: none !important;
 	}
 	
 	.header-medium h2 {
@@ -2051,7 +2045,7 @@ footer a:hover {
 
 	.social2, .social4, .social6 {
 		margin-bottom: 40px;
-		float: right !important;
+		width: 100%;
 		display: inline-block;
 	}
 
@@ -2070,6 +2064,7 @@ footer a:hover {
 
 	.social1 {
 		margin-top: -17px;
+		margin-bottom: 7px;
 	}
 	
 	.social6 {
@@ -2078,23 +2073,31 @@ footer a:hover {
 
 	.social1, .social5 {
 		margin-bottom: 10px;
-		float: left !important;
-		display: inline-block;
+		float: left;
+		width: 50%;
+	}
+
+	.social2, .social4, .social6 {
+	    display: inline-block;
+	    float: right;
+	    margin-bottom: 40px;
+	    width: 50%;
 	}
 
 	.social1 a, .social2 a,
 	.social4 a, .social5 a, .social6 a {
 		width: 100% !important;
 		height: 58px;
-		margin: 0 auto
+		margin: 0 auto;
 	}
 
 	.social1 img, .social2 img, .social4 img, .social5 img, .social6 img {
 	    border-bottom: medium none;
-	    padding-left: 33px;
+	    margin-left: 65px;
 	    padding-top: 7px;
 	    margin-bottom: 30px;
 	}
+
 	.social2 {
     		margin-top: -18px;
 	}

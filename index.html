@@ -26,12 +26,12 @@
     			<div class="header-top">
     				<div class="container">
     					<div class="row">
-    						<div class="col-md-2 col-xs-2 col-sm-2">
+    						<div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">
     							<div class="header-label">
-    								<img src="img/label.png" class="img-responsive" alt="Лейбл">
+    								<a href="#"><img src="img/label.png" class="img-responsive" alt="Лейбл"></a>
     							</div>
     						</div>
-    					     <div class="col-md-7 col-sm 5">
+    					     <div class="col-md-7 col-sm 5 col-lg-6">
     							<div class="header-menu hidden-xs">
 	    							<ul class="main_menu">
 								     <li><a href="#">Home</a></li>
@@ -55,46 +55,52 @@
 	                                             </ul>
 							</div>
     						</div> 	
-						<div class="header-icon  visible-md visible-lg">
-							<ul>
-								<li><a href="#"><img src="img/header-icon1.png" class="img-responsive" alt="1"></a></li>
-								<li><a href="#"><img src="img/header-icon2.png" id="circle" class="img-responsive" alt="2"></a></li>
-								<li><a href="#"><img src="img/header-icon3.png" class="img-responsive" alt="3"></a></li>
-							</ul>
-						</div>	
-		           		</div>
+						<div class="col-md-3 col-lg-4">
+							<div class="header-icon  visible-md visible-lg">
+								<ul>
+									<li><a href="#"><img src="img/header-icon1.png" alt="1"></a></li>
+									<li><a href="#"><img src="img/header-icon2.png" id="circle" alt="2"></a></li>
+									<li><a href="#"><img src="img/header-icon3.png" alt="3"></a></li>
+								</ul>
+							</div>	
+						</div>
+		           	</div>
     				</div>
     			</div>	
-    			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	    		  <!-- Indicators -->
-		    		<ol class="carousel-indicators">
-		    		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		    		</ol>
-			    		  <!-- Wrapper for slides -->
-		    		<div class="carousel-inner">
-		    		 	<div class="item active">
-		    		     		<img src="img/header_bg.jpg" alt="alt" class="img-responsive" style="height: 450px;">
-		    		      </div>
-		    		      <div class="item">
-		    		      		<img src="img/header_bg.jpg" alt="alt" class="img-responsive" style="height: 450px;">
-		    		      </div>
-		    		      	<div class="item active">
-		    		          	<img src="img/header_bg.jpg" alt="alt" class="img-responsive" style="height: 450px;">
-		    		      </div>
-		    		</div>
-		    		  <!-- Controls -->
-		    		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-		    		    <span class="glyphicon glyphicon-chevron-left"></span>
-		    		</a>
-		    		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-		    		    <span class="glyphicon glyphicon-chevron-right"></span>
-		    		</a>
-	    		</div>
-			</div>		
+    			<div class="container-fluid">
+				<div class="row">
+		    			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			    		  <!-- Indicators -->
+				    		<ol class="carousel-indicators">
+				    		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				    		</ol>
+					    		  <!-- Wrapper for slides -->
+				    		<div class="carousel-inner">
+				    		 	<div class="item active">
+				    		     		<img src="img/header_bg.jpg" alt="alt" class="img-responsive" style="height: 450px;">
+				    		     </div>
+				    		      <div class="item">
+				    		      	<img src="img/header_bg.jpg" alt="alt" class="img-responsive" style="height: 450px;">
+				    		     </div>
+				    		      <div class="item active">
+				    		          	<img src="img/header_bg.jpg" alt="alt" class="img-responsive" style="height: 450px;">
+				    		     </div>
+				    		</div>
+				    		  <!-- Controls -->
+				    		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    		    <span class="glyphicon glyphicon-chevron-left"></span>
+				    		</a>
+				    		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    		    <span class="glyphicon glyphicon-chevron-right"></span>
+				    		</a>
+			    		</div>
+				</div>
+			</div>
+    		</div>		
     		</div>	
-	        	<div class="container-fluid" id="medium">
+	        	<div class="container" id="medium">
 				<div class="row">
 					<div class="col-md-12 col-xs-12 col-lg-12">
 						<div class="header-medium">
@@ -250,7 +256,7 @@
 							<p class="col-xs-12 text-left">What’s our clients talking about our product or service. This is only an example to show you quote block effect here.</p>
 							<p><span class="col-xs-12 georg">georg clooney</span></p>
 	                                                                                   
-					            </div>
+					       </div>
 					</div>	
 				</div>
 			</div>
@@ -328,19 +334,22 @@
 						<h6 class="text-center">Snippet</h6>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
 					</div>
-					<div class="col-md-3 col-sm-3" id="btn">
+					<div class="col-md-3 col-sm-6" id="btn">
 						<h6 class="text-center">Tags</h6>
-							<a class="btn btn-default" href="#" role="button">Responsive</a>
-							<a class="btn btn-default" href="#" role="button">Flat</a>
-							<a class="btn btn-default" href="#" role="button">Template</a>
-							<br>
-							<a class="btn btn-default" href="#" role="button">Design</a>
-							<a class="btn btn-default" href="#" role="button">Design</a>
-							<a class="btn btn-default" href="#" role="button">Creative</a>
+							<div class="btn-group">
+							  <button type="button" class="btn btn-default">Responsive</button>
+							  <button type="button" class="btn btn-default">Flat</button>
+							  <button type="button" class="btn btn-default">Template</button>
+							</div>
+							<div class="btn-group" id="b_group">
+							  <button type="button" class="btn btn-default">Design</button>
+							  <button type="button" class="btn btn-default">Design</button>
+							  <button type="button" class="btn btn-default">Creative</button>
+							</div>
 					</div>
-					<div class="col-md-4 col-xs-12 col-sm-9" id="textarea" >
+					<div class="col-md-4 col-xs-12 col-sm-6" id="textarea" >
 						<h6 class="text-center">Contact</h6>
-						<form action="#" method="post">
+						<form action="#" method="post" class="text-left">
 							<span class="text-left">Nom : &nbsp; </span> <input type="text" name="Nom" style="height:30px" id="nom"><br>
 							<span>Email : &nbsp;</span><input type="text" name="Email"  style="height:30px" id="email" > <br>
 							<span >Message :&nbsp;&nbsp;</span><input type="text" name="Massage" style="height:97px" id="mes" >
@@ -404,13 +413,11 @@
 
 	<script language  ="javascript">
 	            $(document).ready(function() {
-	                                                        $ ('#medium').mouseenter(clickHandler);
-	                                                    });
-	            function clickHandler(eventObj)
-	            {
-	            	$('#medium').toggleClass('fix');
-	            }
 
+	                $('#carousel-example-generic').slideDown();
+
+	                	})				
+	           
 	</script>
 
 </html > 
